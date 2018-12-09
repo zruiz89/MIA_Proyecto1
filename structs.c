@@ -36,6 +36,8 @@ struct ExtendedBootRecord {
 };
 
 int main() {
-
+    struct MasterBootRecord masterBootRecord;
+    struct ExtendedBootRecord extendedBootRecord;
+    struct Partion partion;
     return 0;
 }
